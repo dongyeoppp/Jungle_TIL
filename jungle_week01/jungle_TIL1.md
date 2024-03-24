@@ -84,6 +84,7 @@ def recur(n):
     * 후기  
         * 이해하는데 굉장히 어려웠다. 재귀함수를 사용하여 문제를 해결했다.  
         * 하노이 탑의 원판을 옮기는 횟수는 규칙을 가지고 있어 수식으로 표현이 가능했다. -> count = 2**n-1 (원판이 3개일 경우 최소 7번 옮긴다.)  
+        * 방법1
         ```
         import sys
 
@@ -99,5 +100,25 @@ def recur(n):
                     hanoi(num-1, mid, start, last)  # 경유지 mid에 있는 n-1개의 원판을 last로 보낸다. 여기까지의 과정을 반복하며 원판을 옮긴다.
         print(2**num-1)
         hanoi(num,1,2,3)
+        ```  
+        * 방법2
+        ```
+        import sys
+
+        num = int(sys.stdin.readline().strip())    
+        count = 0
+        def hanoi(num, start, last):            
+            if num <= 20:              
+                if num == 1:
+                    print(f"{start} {last}")
+                    global count
+                    count +=1         
+                else :
+                    hanoi(num-1, start,6-start-last)   
+                    print(f"{start} {last}") 
+                    count +=1     
+                    hanoi(num-1, 6-start-last, last)  
+        hanoi(num,1,3)
+        print(count)
         ```
         * start, mid, last를 원판을 꽂는 막대기로 가정하고 원판이 있는 위치와 보내야하는 위치를 가정하여 함수에 값을 변경해주었다.
