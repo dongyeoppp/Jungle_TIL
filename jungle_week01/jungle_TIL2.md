@@ -75,5 +75,5 @@
     ```
 
 * CS(ComputerSystem) ~ 1.4장까지 학습하여 정리하였다.  
-    * [cs.week01]() 
+    * [cs.week01](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/ComputerSystem1.md) 
 
