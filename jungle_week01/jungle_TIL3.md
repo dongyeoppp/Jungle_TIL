@@ -52,5 +52,5 @@
                     <img src="./img/image8.png">
 
 
-* 1181번 [단어 정렬]()  
-* 2309번 [일곱 난쟁이]()
+* 1181번 [단어 정렬](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_1181.py)  
+* 2309번 [일곱 난쟁이](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_2309.py)
