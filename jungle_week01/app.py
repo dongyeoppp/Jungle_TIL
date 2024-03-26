@@ -1,5 +1,5 @@
 # 탑 
-
+# 첫번째 시도 처참히 시간초과..  스택을 통해 다시 구현해보자  
 import sys
 
 n = int(sys.stdin.readline())
