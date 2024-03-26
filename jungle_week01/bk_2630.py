@@ -7,25 +7,30 @@ num_list = []
 for i in range(n):
     num_list.append(list((map(int,sys.stdin.readline().split()))))
 
-count = 0 
-while n>1:
-    n = n // 2
-    new1 = []
-    new2 = []
-    for i in range(n):
-        new1.append(num_list[i][:n])
-        new2.append(num_list[i][n:])
-    for j in range(n-1):
-        if new1[j] != new1[j+1]:
-            break
+white = 0
+blue = 0
+def check(x,y,n):               # 해당 범위 안에서 값이 다 똑같은지 검사, 똑같다면 true를 하나라도 다른게 있다면 false를 리턴  
+    base = num_list[x][y]
+    for i in range(x,x+n):
+        for j in range(y,y+n):
+            if num_list[i][j] != base:
+                return False
+    return True
+
+def paper(x,y,n):
+    global white, blue
+    if check(x,y,n):            # check()함수가 true일 경우 지정한 범위의 첫 요소 값에 따라 count+1
+        if num_list[x][y] == 1:
+            blue +=1
         else:
-            count +=1
-    for j in range(n-1):
-        if new2[j] != new2[j+1]:
-            break
-        else:
-            count +=1
+            white +=1
+        return          # check가 완료된 함수일 경우 더 이상 재귀 하지 않는다.      
+    else:           
+        paper(x,y,n//2)        # n의 값을 줄여주면서 범위를 작아지게 한다.  네부분으로 나누었을 때 해당 영역의 첫 인덱스 자리를 지정해준다.    
+        paper(x+n//2,y,n//2)
+        paper(x,y+n//2,n//2)
+        paper(x+n//2,y+n//2,n//2)
 
-    new = []
-
-
+paper(0,0,n)
+print(white)
+print(blue)

@@ -37,7 +37,7 @@
                     while arr[qr] > pivot:
                         qr -= 1
                     if ql <= qr:
-                        new[ql] , new[qr] = new[qr], new[ql]
+                        arr[ql] , arr[qr] = arr[qr], arr[ql]
                         ql += 1
                         qr -= 1
                 if left < qr:
