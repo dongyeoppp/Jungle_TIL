@@ -221,7 +221,7 @@
     * 단순 정렬 알고리즘 시간복잡도  
         * 버블, 선택, 삽입 알고리즘의 시간 복잡도는 모두 O(n^2)으로 프로그램의 효율이 좋지 않다.  
 
-* 10828번 [스택]()
-* 2493번 [탑]()
-* 11866번 [요세푸스 문제0]()
-* 11279번 [최대 힙]()
+* 10828번 [스택](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_10828.py)
+* 2493번 [탑](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_2493.py)
+* 11866번 [요세푸스 문제0](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_11866.py)
+* 11279번 [최대 힙](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_11279.py)    
