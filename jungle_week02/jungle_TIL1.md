@@ -49,7 +49,7 @@
         * Edge에 방향성이 있는 그래프 
     * 가중치 그래프  
         * 그래프에 간선에 가중치 값이 할당된 그래프
-        <img src="./img/image17.png">
+        <img src="./img/image1.png">
 
     <br/>   
 
@@ -89,7 +89,7 @@
             return visited
         ```    
         <br/>
-        
+
 #### 위상 정렬  
 
 * 위상 정렬   
