@@ -7,7 +7,7 @@ import sys
 from collections import deque       # deque 모듈을 불러와 사용하였다.
 
 n = int(sys.stdin.readline())
-arr = deque()       # arr를 deque()로 선언
+arr = deque()       # arr를 deque()로 선언                                                          
 def push(arr,x):
     arr.append(x)
 def pop(arr):

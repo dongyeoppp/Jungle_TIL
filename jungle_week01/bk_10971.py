@@ -1,4 +1,4 @@
-# 외판원 순회 2  
+# 외판원 순회 2  # 아직 미완료
 
 import sys
 n = int(sys.stdin.readline())
