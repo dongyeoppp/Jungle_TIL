@@ -66,9 +66,9 @@
     * 일반적으로 스택으로 구현을 하며 , 재귀 방식으로도 구현이 가능하다.  
     * 재귀 함수를 사용해서 DFS 구현  
         ```
-        def dfs(graph,start,visited=[]):    # graph는 사전형태로 사용 
-            visited.append(start)           # 방문한 노드는 visited리스트에 append
-
+        def dfs(graph,start,visited=[]):    # graph는 사전형태로 사용  
+            if start not in visited:
+                visited.append(start)           # 방문한 노드는 visited리스트에 append
             for i in graph[start]:
                 if i not in visited:        # 방문하지 않은 노드일 경우에만 재귀 함수 실행  
                     dfs(graph,i,visited)
@@ -76,17 +76,18 @@
         ```   
     * 스택을 사용해서 DFS 구현  
         ```
-        def dfs(graph,start,visited=[]):
-            stack = [start]     # 스택 리스트를 추가하여 처음 방문하는 노드를 넣는다. 
+       def DFS(arr,v,result=[]):
+            for i in arr:
+                i.sort(reverse=True)        # 작은 수가 stack에서 먼저 나갈 수 있도록 함  
+            stack = [v]     # 스택 리스트를 추가하여 처음 방문하는 노드를 넣는다. 
             while stack:
                 current_node = stack.pop()
-                if current_node not in visited:
-                    visited.append(current_node)
-
-                for i in graph[current_node]:
-                    if i not in visited:
+                if current_node not in result:
+                    result.append(current_node)
+                    for i in arr[current_node]:
                         stack.append(i)
-            return visited
+                    # stack.extend(arr[current_node]) 위의 for문을 extend를하여 표현 가능  
+            return result
         ```    
         <br/>
 
@@ -97,5 +98,5 @@
     * 위상 정렬은 사이클이 없느 방향 그래프(DAG)에만 적용이 가능하다.  
     * 사이클이 발생하는 경우 위상 정렬을 수행할 수 없다.  
     * 위상 정렬은 시작점이 존재해야 하는데 사이클 그래프일 경우 시작점을 찾을 수 없다.  
-    * 스택이나 큐를 사용하여 위상 정렬 알고리즘을 구현할 수 있다.  
+    * 스택이나 큐를 사용하여 위상 정렬 알고리즘을 구현할 수 있고, 여러가지 답이 존재할 수 있다.  
     * 모든 노드를 확인하며 해당 노드와 연결된 간선을 제거해야하므로 시간복잡도는 O(V(=노드의수)+E(=간선의수))
