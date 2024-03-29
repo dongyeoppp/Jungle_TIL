@@ -50,8 +50,9 @@ topology_sort()
     # 1 2 3 4 -> 괄호 제거, 요소 사이에 공백넣어 출력  
     ```
 
-* 1260번 [DFS와 BFS]()  
-* 1991번 [트리 순회]()   
-* 5639번 [이진 검색 트리]()  
-* 11724번 [연결 요소의 개수]()   
-* 2252번 [줄 세우기]()
+* 1260번 [DFS와 BFS](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1260.py)  
+* 1991번 [트리 순회](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1991.py)   
+* 5639번 [이진 검색 트리](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_5639.py)  
+* 11724번 [연결 요소의 개수](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_11724.py)   
+* 2252번 [줄 세우기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_2252.py)   
+
