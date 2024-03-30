@@ -33,7 +33,7 @@
                 * 가장 낮은 가중치를 먼저 선택한다.  
             * 위의 과정을 트리가 (N-1)개의 간선을 가질 때까지 반복한다.  
     * prim 알고리즘과 kruskal 알고리즘 구현을 백준문제에서 학습해 보았다. 나중에 다시 참고해보자   
-        * 1197번 [최소 스패닝 트리]()
+        * 1197번 [최소 스패닝 트리_prim](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1197_prim.py) / [최소 스패닝 트리_kruskal](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1197_kruskal.py)
 
 
 
@@ -82,13 +82,14 @@
         * bfs,dfs 알고리즘을 통해 이분 그래프가 맞는지 확인할 수 있다.  
         * 모든 정점을 방문하며 간선을 검사하기 때문에 시간복잡도는 O(V+E)로 그래프 탐색 알고리즘과 같다.  
         * 인접한 정점끼리는 같은 색으로 칠해질 수 없다.  서로 인접한 정점이 같은 색이면 이분 그래프가 아니다. 
-    * 1707번 [이분 그래프]() / 해당 문제를 통해 이분 그래프를 이해할 수 있다.   
+    * 백준 문제를 통해 이분그래프에 대한 내용을 학습하였다. 나중에 다시 참고해보자   
+    * 1707번 [이분 그래프](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1707.py)  
 
 
-* 1197번 / prim 알고리즘 사용 [최소 스패닝 트리]() / kruskal 알고리즘 사용 [최소 스패닝 트리]()  
-* 2606번 [바이러스]()  
-* 11725번 [트리의 부모 찾기]()
-* 1707번 [이분 그래프]()
+* 1197번 / prim 알고리즘 사용 [최소 스패닝 트리](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1197_prim.py) / kruskal 알고리즘 사용 [최소 스패닝 트리](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1197_kruskal.py)  
+* 2606번 [바이러스](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_2606.py)  
+* 11725번 [트리의 부모 찾기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_11725.py)    
+* 1707번 [이분 그래프](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1707.py)    
     
 
 
