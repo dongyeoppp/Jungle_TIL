@@ -59,6 +59,25 @@
     * 시작 노드에서 가까운 노드부터 차례대로 탐색하는 알고리즘으로 시작노드에서부터 시작하여 인접한 모든 노드를 탐색한 후, 그 다음 단계에서는 인접한 모든노드의 인접한 노드들을 탐색하며 계속 탐색을 진행한다.  
     * 일반적으로 큐를 사용해 구현 하며 시작노드를 큐에 넣고, 해당 노드와 인접한 모든 노드를 큐에 넣고, 큐에서 하나씩 노드를 꺼내며 탐색한다.  
     * 최단 경로 탐색이나 두 노드간의 최단거리를 찾을 때 유용하다.  
+        ```
+        from collections import deque
+        queue = deque()     # queue 구현을 위해 deque 라이브러리 사용   
+        def BFS(arr,v,result=[]):
+            for i in arr:
+                i.sort()
+            visited = [False]*(n+1)     # 해당 노드를 갔다왔는지 체크  
+            queue.append(v)
+            visited[v] = True
+
+            while queue:
+                current = queue.popleft()
+                result.append(current)
+                for i in arr[current]:
+                    if not visited[i]:
+                        queue.append(i)
+                        visited[i] = True
+            return result
+        ```
 
 * DFS(깊이 우선 탐색)  
     * 시작 노드에서부터 더 이상 갈 수 없을 때까지 가능한 한 깊이 들어가서 탐색한다.  
@@ -88,6 +107,19 @@
                         stack.append(i)
                     # stack.extend(arr[current_node]) 위의 for문을 extend를하여 표현 가능  
             return result
+
+
+        def dfs(graph,start,visited=[]):
+            stack = [start]     # 스택 리스트를 추가하여 처음 방문하는 노드를 넣는다.
+            while stack:
+                removed = stack.pop()
+                if removed not in visited:
+                    visited.append(removed)
+                    for i in graph[removed]:
+                            if i not in visited:
+                                stack.append(i)
+                                result[i] = removed
+            return visited
         ```    
         <br/>
 
