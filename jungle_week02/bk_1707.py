@@ -40,7 +40,3 @@ for k in range(k):
     else:               # result 값이 false일 경우 
         print("NO")
         
-
-
-
-
