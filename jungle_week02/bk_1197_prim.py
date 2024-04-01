@@ -14,7 +14,7 @@ for i in range(e):
 
 def prim(graph):        # prim 함수의 변수로 그래프를 주었다.  
     n = len(graph)
-    visited = [False] * n   # 방문한 노드를 체클할 수 있는 리스트를 만들어줬다.  
+    visited = [False] * n   # 방문한 노드를 체크할 수 있는 리스트를 만들어줬다.  
     heap = []   # heap을 통해서 갈 수 있는 노드 중 최소값을 선택해 이동할 수 있도록 한다. (최소 힙)
     result= 0   
 
