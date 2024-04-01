@@ -62,10 +62,10 @@
             print(i[1:])
         ```   
 #### ComputerSystem(~1.9)  
-* computersystem 책을 참고하여 정리하였다. [cs(1.5~1.9)]/()
+* computersystem 책을 참고하여 정리하였다. [cs(1.5~1.9)]/(https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/ComputerSystem2.md)
 
 #### 알고리즘 문제풀이   
-* 18352번 [특정 거리의 도시 찾기]()   
-* 1916번 [최소 비용 구하기]()   
+* 18352번 [특정 거리의 도시 찾기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_18352.py)   
+* 1916번 [최소 비용 구하기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1916.py)   
 
 
