@@ -53,7 +53,7 @@
 
 #### 알고리즘 문제 풀이  
 
-* 21606번 [아침산책]()   
-* 14888번 [연산자 끼워넣기]()   
+* 21606번 [아침산책](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_21606.py)   
+* 14888번 [연산자 끼워넣기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_14888.py)   
 
   
