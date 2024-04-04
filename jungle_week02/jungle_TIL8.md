@@ -6,12 +6,12 @@
 
 * 총 3문제가 출제 되었고 3문제 중 2문제를 풀어 제출하였다. 
 
-* 1388번 [바닥장식]()   
+* 1388번 [바닥장식](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_1388.py)   
     * 시간이 오래 걸리긴하였지만 해결하였다.    
     * dfs를 사용하여 푸는 방법을 다시 생각해보고 구현해봐야겠다.   
-* 2667번 [단지번호붙이기]()   
+* 2667번 [단지번호붙이기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_2667.py)   
     * bfs사용하여 문제를 해결하였다.  
-* 18405번 [경쟁적 전염]()  
+* 18405번 [경쟁적 전염](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week02/bk_18405.py)  
     * 시간이 부족하여 문제를 해결하지 못했다. 다시 시도해 봐야한다.   
     * heap을 사용하여 문제를 해결하였다.야호  
 
