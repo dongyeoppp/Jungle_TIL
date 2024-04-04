@@ -11,10 +11,10 @@
 #### 1주차 시험 리뷰  
 * 총 3문제가 출제 되었고 3문제 중 2문제를 풀어 제출하였다.  
 
-* 1110번 [더하기 사이클]()  
-* 1182번 [부분수열의 합]()
+* 1110번 [더하기 사이클](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_1110.py)  
+* 1182번 [부분수열의 합](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_1182.py)
     * combinations 라이브러리를 불러와 문제에 적용하여 풀었다. 라이브러리를 불러오지 않고 다시 한번 풀이를 해보자.  
-* 1992번 [쿼드트리]()  
+* 1992번 [쿼드트리](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week01/bk_1992.py)  
     * 색종이 접기와 굉장히 유사한 문제였다. 해결하지 못해 아쉬웠다. 다시 한번 풀어보자!  
 
 #### 마무리  
