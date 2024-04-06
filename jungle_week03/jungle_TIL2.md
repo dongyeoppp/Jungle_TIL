@@ -29,10 +29,10 @@
 * & 연산자  
     * 특정한 변수의 주소를 의미한다.  
 #### Computer System(3.4)
-* ComputerSystem 책을 참고하여 정리하였다. [cs_week03_1]()
+* ComputerSystem 책을 참고하여 정리하였다. [cs_week03_1](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week03/ComputerSystem1.md)
 
 
 #### 문제 풀이   
-* 1541번 [잃어버린 괄호]()   
-* 9251번 [LCS]()  
-* 12865번 [아주 평범한 배낭]()
+* 1541번 [잃어버린 괄호](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week03/bk_1541.py)   
+* 9251번 [LCS](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week03/bk_9251.py)  
+* 12865번 [아주 평범한 배낭](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week03/bk_12865.py)   
