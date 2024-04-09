@@ -66,8 +66,10 @@
         * 하향식(Top-Down) : 큰 문제를 작은 문제로 나누어 해결한다.  
 
 #### cs 개념 정리(3.8)   
-* ComputerSystem 책을 참고하여 정리하였다. [cs_week03_3]()   
+* ComputerSystem 책을 참고하여 정리하였다. [cs_week03_3](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week03/ComputerSystem3.md)   
 
 #### 알고리즘 문제 풀이   
-* 11049번 [행렬 곱셈 순서]()   
+* 11049번 [행렬 곱셈 순서](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week03/bk_11049.py)     
+    * 행렬 제곱의 점화식을 사용하여 문제를 해결하였다.   
+    <img src="./img/image17.jpg">
 
