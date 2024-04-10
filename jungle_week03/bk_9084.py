@@ -17,3 +17,7 @@ for i in range(t):
                 dp[j] += dp[j-i] # 동전의 금액을 주기로 경우의 수가 더해지며 갱신된다.  
     print(dp[-1])
 
+
+    
+
+

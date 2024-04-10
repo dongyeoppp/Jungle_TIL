@@ -2,6 +2,7 @@
 
 # 바텀 업 방식 
 # 반복문을 사용하는 방식이며 상향식이라고 한다.  
+
 import sys
 n = int(sys.stdin.readline())
 dp = [0]* 100   # 값을 저장해 놓을 리스트를 만들고 
@@ -26,3 +27,4 @@ def fibo(x):
     dp[x] = fibo(x-1) + fibo(x-2)       # dp에 값을 저장한다.  
     return dp[x]
 print(fibo(n))
+
