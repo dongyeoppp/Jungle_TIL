@@ -49,10 +49,13 @@
     void createQueueFromLinkedList(LinkedList *ll, Queue *q)		// 연결리스트 큐로 구현하기  
     {
         ListNode *node = ll->head;		// node는 ll의 첫번째 노드를 가르킨다.  
-        for(int i =0; i<ll->size;i++){		
+        if (isEmptyQueue(q)){			// q에 값이 쌓이지 않도록 q가 비어있을 경우에만 q에 값을 넣어준다.  
+            for(int i =0; i<ll->size;i++){		
             enqueue(q,node->item);		// q에 node의 data를 넣어준 후 node가 가르키는 값을 해당노드의 다음노드로 옮긴다.  
             node=node->next;
         }
+        }
+        
     }
     ```   
 * 연결리스트에서 큐로 짝수값만 남기기(Q1)   
