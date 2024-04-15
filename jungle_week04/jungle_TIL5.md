@@ -1,4 +1,4 @@
-## 4주차 c언어 stack, queue, 코딩 테스트 대비 문제 풀이(python)   
+## 4주차 c언어 stack, queue, 알고리즘 풀이(python)   
 
 * 2024 - 04 -15 (29일차)   
 
