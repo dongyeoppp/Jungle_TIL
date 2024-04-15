@@ -185,7 +185,7 @@
     }
     ```
 
-#### c언어 문법 및 cs  
+#### c언어 문법    
 * sizeof(문자열) : 문자열의 byte크기를 알려준다.(맨 뒤에 위치하는 종료문자 "/n"도 문자열의 크기에 포함된다.)   
 * strlen(문자열) : 문자열의 글자 수를 알려준다.   
 
@@ -193,7 +193,7 @@
 <img src="./img/image13.jpg">   
 
 #### 알고리즘 문제풀기  
-* 8983번 [사냥꾼]()   
+* 8983번 [사냥꾼](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week04/bk_8983.py)   
 
 
 
