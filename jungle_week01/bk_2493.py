@@ -1,6 +1,6 @@
 # 탑 
 
-# 첫번째 시도 처참히 시간초과..  스택을 통해 다시 구현해보자  
+# 첫번째 시도 시간초과..  스택을 통해 다시 구현해보자  
 
 # import sys
 
@@ -57,7 +57,7 @@
 import sys
 n = int(sys.stdin.readline())
 arr = list(map(int,sys.stdin.readline().split()))
-count = n-1
+
 stack = []
 result = [0] * n        # 결과를 반영할 result리스트의 원소를 0 으로 초기화  
 for i in range(n):
@@ -67,7 +67,7 @@ for i in range(n):
         result[i] = stack[-1]+1
     stack.append(i) # 해당 인덱스를 다시 stack에 추가
 
-    # ex) 탑의 높이가 6 9 5 7 4 일경우 index=1에서 값이 9, index값이 1이상일겨우는 인덱스가 0 인(높이가 6) 탑에 도달 할 수 없으므로 스택에서 0 인덱스는 제거해준다.
+    # ex) 탑의 높이가 6 9 5 7 4 일경우 index=1에서 값이 9, index값이 1이상일경우는 인덱스가 0 인(높이가 6) 탑에 도달 할 수 없으므로 스택에서 0 인덱스는 제거해준다.
 
 print(" ".join(map(str,result)))        # result 리스트의 요소를 map()을 이용하여 문자열로 바꾸어준다. join을 통해 공백으로 구분하여 출력  
 
