@@ -299,6 +299,7 @@
     }
     ```
 #### 알고리즘 풀이   
-* 2493번 [탑]()
+* 2493번 [탑](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week04/bk_2493.py)   
+
 
 
