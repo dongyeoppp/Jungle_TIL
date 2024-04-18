@@ -53,7 +53,7 @@
 # print(answer[:-1])
 
 
-# 스택을 이용하여 시간복잡도를 O(n)으로 줄였다.  
+# 이진탐색을 이용하여 시간복잡도를 줄였다.  
 import sys
 n = int(sys.stdin.readline())
 arr = list(map(int,sys.stdin.readline().split()))
