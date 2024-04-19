@@ -22,16 +22,16 @@
 # for i in new:
 #     print(i)    
 
-# # 예산   
-
 # 장난감 조립  
-import sys 
+# import sys 
 
-n = int(sys.stdin.readline())
+# n = int(sys.stdin.readline())
 
-m = int(sys.stdin.readline())
-graph = [[] for i in range(n+1)]
-for i in range(m):
-    a,b,c = map(int,sys.stdin.readline().split())
-    graph[a].append((b,c))
+# m = int(sys.stdin.readline())
+# graph = [[] for i in range(n+1)]
+# for i in range(m):
+#     a,b,c = map(int,sys.stdin.readline().split())
+#     graph[a].append((b,c))
+
+
 

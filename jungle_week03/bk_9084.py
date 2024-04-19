@@ -15,6 +15,7 @@ for i in range(t):
         for j in range(1,m+1):
             if j >= i:          # 동전 금액보다 dp의 인덱스 값이 큰 경우에만 경우의 수를 추가한다.  
                 dp[j] += dp[j-i] # 동전의 금액을 주기로 경우의 수가 더해지며 갱신된다.  
+    print(dp)
     print(dp[-1])
 
 
