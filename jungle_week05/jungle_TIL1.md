@@ -57,7 +57,7 @@
     * 삽입 노드의 색은 항상 RED!!    
         * 새로 삽입하는 노드가 RED인 이유    
             * 삽입 후에도 #5번(임의의 노드에서 자손 nil 노드들까지 가는 경로들의 black 수는 같다.) 속성을 만족하기 위해서..   
-            
+
 <img src="./img/image2.jpg">   
     
 <img src="./img/image3.jpg">    
@@ -99,7 +99,7 @@
         * Red-Black Tree가 AVL Tree에 비해 느리다. 
        
 #### 알고리즘 문제풀이   
-* 2294번[동전 2]()   
+* 2294번[동전 2](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week05/bk_2294.py)     
     * 동적프로그래밍을 이용한 문제     
     <img src="./img/image1.jpg">   
 
