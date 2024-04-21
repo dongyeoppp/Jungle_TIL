@@ -5,7 +5,7 @@
 #### RB - Tree 구현   
 * calloc() : 메모리를 동적으로 할당하며, 할당된 메모리를 모두 0 으로 초기화 한다.   
     * 두개의 인자를 받으며 첫번째 인자는 할당하고자 하는 객체의 개수, 두 번째 인자는 각 객체의 크기를 나타낸다.   
-    * ```calloc(1,sizeof(rbtree))``` : 할당하고자 하는 객체의 개수는 1개이고, 각 객체의 크기는 sizeof(rbtree)이다.    
+    * ```calloc(1,sizeof(rbtree))``` : 할당하고자 하는 객체의 개수는 1개이고, 각 객체의 크기는 sizeof(rbtree)이다. (sizeof 안의 변수는 앞의 자료형과 맞춰줘야 한다. )   
 
 * enum   
     * 어떤 유사한 성질을 갖는 변수를 정수로 표현할때 유용하다.   
@@ -20,7 +20,7 @@
     rbtree *new_rbtree(void) {    // rb tree 구조체 생성   
     rbtree *p = (rbtree *)calloc(1, sizeof(rbtree));
     // nil_node 생성, calloc을 사용하여 모든 node값에 null(=0)로 초기화 해줄 수 있다. 포인터 변수는 0으로 초기화하면 null 포인터를 나타낸다.      
-    node_t *nil_node = (node_t *)calloc(1, sizeof(rbtree));   // 1 -> 할당하고자 하는 객체의 개수 , sizeof(rbtree)-> 각 객체의 크기
+    node_t *nil_node = (node_t *)calloc(1, sizeof(node_t));   // 1 -> 할당하고자 하는 객체의 개수 , sizeof(rbtree)-> 각 객체의 크기
     // nil_node는 모두 black  
     nil_node->color = 1;    // 1 -> rbtree_black을 뜻함, nil-node는 모두 black   
 
@@ -33,8 +33,8 @@
 
 * RB TREE 삽입 (KEY 추가하기)    
     ```
-    node_t *rbtree_insert(rbtree *t, const key_t key) {   // key 추가 (rb tree 삽입) 
-    node_t *new_node = (node_t *)calloc(1, sizeof(rbtree)); 
+    node_t *rbtree_insert(rbtree *t, const key_t ke`y) {   // key 추가 (rb tree 삽입) 
+    node_t *new_node = (node_t *)calloc(1, sizeof(node_t)); 
     node_t *pre_node = t->nil;       // 새로 삽일 할 노드가 들어갈 위치에 부모노드를 저장
     node_t *cur_node = t->root;     // 새로 삽입할 key값을 넣을 노드의 위치 저장
     new_node->key = key;    // 삽입할 노드에 키 값 설정  
@@ -136,25 +136,30 @@
     ```   
 * RB TREE 오른쪽으로 회전   
     ```
-    void right_rotate(rbtree *t,node_t * cur_node){   // cur_node를 기준으로 왼쪽으로 회전   
+   void right_rotate(rbtree *t, node_t *cur_node)
+    { // cur_node를 기준으로 왼쪽으로 회전
 
-    node_t *new_parent = cur_node->left;   //  new_parent를 curnode의 왼쪽 자녀 노드로 설정   
-    cur_node->left = new_parent->right;     //  cur_node의 왼쪽 자녀에 new_parent의 오른쪽 자녀 붙이기
-    if (new_parent -> right != t->nil){      //  new_parent의 오른쪽 자녀가 nil이 아닐때만  -> nil 노드에는 부모를 설정하면 안되기 때문  
-        new_parent->right->parent = cur_node;    // new_parent의 오른쪽자녀의 부모를 cur_node로 설정  
+    node_t *new_parent = cur_node->left; //  new_parent를 curnode의 왼쪽 자녀 노드로 설정
+    cur_node->left = new_parent->right;  //  cur_node의 왼쪽 자녀에 new_parent의 오른쪽 자녀 붙이기
+    if (new_parent->right != t->nil)
+    {                                       //  new_parent의 오른쪽 자녀가 nil이 아닐때만  -> nil 노드에는 부모를 설정하면 안되기 때문
+        new_parent->right->parent = cur_node; // new_parent의 오른쪽자녀의 부모를 cur_node로 설정
     }
-    new_parent->parent = cur_node->parent;    // cur_node가 가지고 있던 부모를 new_parent의 부모로 설정  
-    if (cur_node->parent == t->nil){    // cur_node의 부모가 null인 경우 new_parent가 root 노드가 됨
+    new_parent->parent = cur_node->parent; // cur_node가 가지고 있던 부모를 new_parent의 부모로 설정
+    if (cur_node->parent == t->nil)
+    { // cur_node의 부모가 null인 경우 new_parent가 root 노드가 됨
         t->root = new_parent;
     }
-    else if (cur_node == cur_node -> parent ->right){       // parent의 오른쪽 자녀가 cur_node일 경우   
-        cur_node->parent->right = new_parent;          // parent의 오른쪽 자녀노드를 new_parent로 변경
+    else if (cur_node == cur_node->parent->right)
+    {                                       // parent의 오른쪽 자녀가 cur_node일 경우
+        cur_node->parent->right = new_parent; // parent의 오른쪽 자녀노드를 new_parent로 변경
     }
-    else{
-        cur_node->parent->left = new_parent;     // parent의 왼쪽 자녀가 cur_node일 경우   
-    }                                           // parent의 왼쪽 자녀를 new_parent로 변경  
-    new_parent->right = cur_node;        
-    cur_node -> parent = new_parent;      // cur_node의 부모를 new_parent로, new_parent의 오른쪽 자녀를 cur_node로 설정   
+    else
+    {
+        cur_node->parent->left = new_parent; // parent의 왼쪽 자녀가 cur_node일 경우
+    } // parent의 왼쪽 자녀를 new_parent로 변경
+    new_parent->right = cur_node;
+    cur_node->parent = new_parent; // cur_node의 부모를 new_parent로, new_parent의 오른쪽 자녀를 cur_node로 설정
     }
     ```   
 
