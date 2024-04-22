@@ -12,7 +12,7 @@
 * AVL 트리가 검색에 유리할 수 있지만 현실에서의 프로그램에서는 데이터 삽입, 삭제가 빈번하게 일어나므로 RB TREE가 주로 선택되어 사용된다.   
 
 #### CS(Computer System)
-* [Computer System 7장 링커]()   
+* [Computer System 7장 링커](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week05/ComputerSystem1.md)    
 
 #### 알고리즘 문제 풀이  
-* 2253번 [점프]()  
+* 2253번 [점프](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week05/bk_2253.py)    
