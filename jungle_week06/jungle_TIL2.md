@@ -8,5 +8,5 @@
 
 #### cs app 키워드 정리
 
-- [Computer System 9장 가상메모리]()    
+- [Computer System 9장 가상메모리](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week06/ComputerSystem1.md)    
 
