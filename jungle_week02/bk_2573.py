@@ -42,21 +42,21 @@ def bfs(row,col):
 time = 0    # 년도 세기 
 while True :
     visited = [[False]*m for i in range(n)]     # 한번 탐색이 끝날 때마다 visited 리스트를 초기화 해주었다. 
-    recur=0             # 재귀함수가 두번 사용되는 것을 count
+    recur=0             # 함수가 두번 사용되는 것을 count
     for i in range(1,n):
         for j in range(1,m):
             if graph[i][j] != 0 and not visited[i][j]:
                 bfs(i,j)
-                recur+=1        # 현재 for문 안에서 재귀함수가 두번 사용되었다는 것은 얼음이 두덩이로 나뉘었다는 것이다.
+                recur+=1        # 현재 for문 안에서 함수가 두번 사용되었다는 것은 얼음이 두덩이로 나뉘었다는 것이다.
     if recur == 0:      # 한번에 다 녹아서 분리되지 않을 경우 0을 출력  
         time= 0
         break
 
-    if recur >=2 :      # 재귀 함수가 두번이상 실행되면 break
+    if recur >=2 :      #  함수가 두번이상 실행되면 break
         break
     for i in range(1,n):
         for j in range(1,m):
-            graph[i][j]=ice[i][j]       # 재귀함수가 실행된 이후 ice 행렬에서 업데이트 된 값을 graph에 넣어주었다.  
+            graph[i][j]=ice[i][j]       # 함수가 실행된 이후 ice 행렬에서 업데이트 된 값을 graph에 넣어주었다.  
     time+=1 # while문을 돌때마다 시간 +1
 print(time)
 
