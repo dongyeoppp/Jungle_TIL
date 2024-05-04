@@ -4,7 +4,7 @@
 
 #### 알고리즘 문제 풀이
 
-- 10844번 [쉬운 계단 수]()  
+- 10844번 [쉬운 계단 수](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week06/bk_10844.py)   
    <img src="./img/image12.jpg">  
 
 
