@@ -3,7 +3,7 @@
 - 2024 - 05 - 04 (48일차)
 
 #### 알고리즘 문제 풀이   
-* 1715번 [카드 정렬하기]()   
+* 1715번 [카드 정렬하기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week07/bk_1715.py)   
 
 
 #### OSI 7 Layer  vs TCP/IP stack
