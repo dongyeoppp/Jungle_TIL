@@ -23,5 +23,37 @@
 #     print(i)
 
 
+# 트리의 지름   
+
+# import sys
+
+# n = int(sys.stdin.readline())
+# tree= [[] for i in range(n+1)]
+# tree1 = [[] for i in range(n+1)]
+# new = []
+# for i in range(n-1):
+#     a, b, c = map(int,sys.stdin.readline().split())
+#     tree[a].append((b,c))
+#     tree[b].append((a,c))
+#     tree1[a].append((b,c))
+# for i in range(1,len(tree1)):
+#     if tree1[i] == []:
+#         new.append(i)
+
+# def dfs(tree,start,end):
+#     global n
+#     stack = []
+#     count = 0
+#     visited = [False] * (n)
+#     for i in tree[start]:
+#         stack.append(i)
+#         visited[i] = True
+#     while stack:
+#         node, weight = stack.pop()
+
+        
 
 
+
+ 
+           
