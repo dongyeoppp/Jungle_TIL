@@ -3,8 +3,9 @@
 * 2024 - 05 -17 (61일차)   
 
 #### 알고리즘 문제 풀이   
-* 1238 [파티]()   
-* 16165 [걸그룹 마스터 준석이]()   
+* 1238 [파티](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week08/bk_1238.py)     
+* 16165 [걸그룹 마스터 준석이](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week08/bk_16165.py)   
+
 #### pintos 구현 - priority (donations)
 * chellenge
     * 왜 priority donation 할 때 while을 사용해야하는가   
