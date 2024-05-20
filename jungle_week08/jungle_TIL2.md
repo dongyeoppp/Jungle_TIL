@@ -38,8 +38,9 @@
 
 #### pintos - alarm
 
-- 목표
+- keypoint
   - sleep_list를 활용하여 busy waiting을 없애기
+  * 특정시간이 지나면 sleep_list에서 read_list로 thread를 이동시킨다.
 - add function
 
   - thread를 sleep_list에 삽입하는 함수
