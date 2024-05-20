@@ -3,10 +3,10 @@
 * 2024 - 05 -18 (62일차)   
 
 ##### 알고리즘 문제 풀이   
-* 15686번 [치킨 배달]()   
+* 15686번 [치킨 배달](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week08/bk_15686.py)   
 
 #### pintos 구현 - advenced scheduler (mlfqs)  
-* [pintos 구현 project1]()   
+* [pintos 구현 project1](https://github.com/dongyeoppp/pintos_kaist_project1)    
 
 * chellenge
     * nice, load_average, recent_cpu 값을 조정할 때 왜 인터럽트를 비활성화 하는가   
@@ -72,7 +72,7 @@
         // x를 n으로 나눔
         #define DIVIDE_INT(x, n) ((x) / (n))
         ```   
-        
+
 * 함수 추가 및 수정   
     * thread의 nice 값 setting   
         ```
