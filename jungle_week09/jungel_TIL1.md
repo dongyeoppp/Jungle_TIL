@@ -5,7 +5,7 @@
 #### 알고리즘 문제 풀이
 
 - 1038번 [감소하는 수](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_1038.py)
-- 2470번 [두 용액]()
+- 2470번 [두 용액](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_2470.py)
 
 #### pintos user programs 키워드
 
