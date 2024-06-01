@@ -6,7 +6,7 @@
 * 2004번 [조합 0의 개수](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_2004.py)   
 * 1339번 [단어 수학](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_1339.py)   
 * 14501번 [퇴사](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_14501.py)   
-* 5427번 [불]()    
+* 5427번 [불](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_5427.py)     
 
 #### pintos system call   
 * kernel 모드 : 메모리, 하드웨어 및 해당 리소스에 직접 액세스 할 수 있다.   

@@ -4,4 +4,5 @@
 
 #### 알고리즘 문제 풀이
 
-- 20438번 [출석체크]()
+- 20438번 [출석체크](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week06/bk_20438.py)   
+

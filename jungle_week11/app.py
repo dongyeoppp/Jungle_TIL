@@ -64,9 +64,15 @@
 
 # 수 이어 쓰기  
 
-import sys
+# 벌집2  
 
-n = sys.stdin.readline().strip()
+
+
+
+
+
+
+
 
 
     

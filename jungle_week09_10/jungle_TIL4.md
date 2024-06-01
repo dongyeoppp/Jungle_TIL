@@ -4,7 +4,7 @@
 
 #### 알고리즘 문제 풀이
 
-- 13023번 [ABCDE]()
+- 13023번 [ABCDE](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week09/bk_13023.py)    
 
 #### quiz_review
 
