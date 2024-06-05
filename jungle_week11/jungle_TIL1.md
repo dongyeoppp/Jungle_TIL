@@ -3,7 +3,7 @@
 - 2024 - 05 -31 (75일차)   
 
 #### 알고리즘 문제 풀이    
-* 14889번 [스타트와 링크]()    
+* 14889번 [스타트와 링크](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week11/bk_14889.py)    
 
 #### Virtual Memory   
 * cpu가 실행되기 위해선 프로그램 정보가 memory에 올라가야 한다.  
