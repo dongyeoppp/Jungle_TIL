@@ -66,9 +66,33 @@
 
 # 벌집2  
 
+# 계란으로 계란치기  
+
+# import sys
+
+# n = int(sys.stdin.readline())
+# egg= []
+# for i in range(n):
+#     power, weight  = map(int,sys.stdin.readline().split())
+#     egg.append((power,weight))
+# result = -1
+# check = set()
+# def back(depth,cnt):
+#     global result
+#     if depth == n:
+#         result = max(result,cnt)
+#         return result
+#     else:
+       
+
+        
+
+        
+
+    
 
 
-
+    
 
 
         

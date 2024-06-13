@@ -9,3 +9,9 @@
 * 17615번 [볼 모으기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week11/bk_17615.py)   
 
 * 11057번 [오르막 수](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week11/bk_11057.py)      
+
+* 1446번 [지름길] ()   
+
+* 1932번 [정수 삼각형]()  
+
+
