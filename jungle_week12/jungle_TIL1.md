@@ -4,9 +4,9 @@
 
 #### 알고리즘 문제풀이  
 
-* 1684번 [같은 나머지]()  
+* 1684번 [같은 나머지](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week12/bk_1684.py)  
 
-* 9935번 [문자열 폭발]()  
+* 9935번 [문자열 폭발](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week12/bk_9935.py)  
 
 #### 스프링 입문  
 * 빌드하고 실행하기  
