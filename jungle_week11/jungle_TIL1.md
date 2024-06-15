@@ -1,4 +1,4 @@
-## 9주차 pintos VIRTUAL MEMORY 및 알고리즘 문제 풀이
+## 11주차 pintos VIRTUAL MEMORY 및 알고리즘 문제 풀이
 
 - 2024 - 05 -31 (75일차)   
 
