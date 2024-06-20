@@ -84,12 +84,34 @@
 #         return result
 #     else:
        
+# 기타 레슨  
 
-    
+# import sys
 
+# n, m = map(int,sys.stdin.readline().split())
+# new = list(map(int,sys.stdin.readline().split()))
 
+# start = 0
+# end = len(new)-1
+# mid = (start+end) // 2
+# result = []
+# for i in range(m-1):
+#     if sum(new[start:mid+1]) < sum(new[mid+1:end+1]):
+#         print("111",new[start:mid+1])
+#         result.append(sum(new[start:mid+1]))
+#         if i == m-2:
+#             result.append(sum(new[mid+1:end+1]))
+#         start = mid+1
+#         mid = (start+end) // 2
+        
+#     else:
+#         result.append(sum(new[mid+1:end+1]))
+#         if i == m-2:
+#             result.append(sum(new[start:mid+1]))
+#         end = mid
+#         mid = (start+end) // 2
+# print(max(result))
 
-    
 
 
         
