@@ -1,0 +1,1 @@
+{"name":"Local: app","url":"c:\\Users\\고동엽\\Desktop\\Jungle_TIL\\jungle_week12\\app.py","tests":[{"id":1718931950360,"input":"3 3\n1 6\n13 17\n8 12","output":"5"},{"id":1718936249354,"input":"2 10\n1 6\n7 8","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\고동엽\\Desktop\\Jungle_TIL\\jungle_week12\\app.py","group":"local","local":true}
