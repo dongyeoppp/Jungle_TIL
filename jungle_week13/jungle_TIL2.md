@@ -11,6 +11,7 @@
     * ctrl + shift + t : create test   
     * shift + fn + f10 : 이전 실행 그대로 다시 실행  
     * alt + fn + insert : getter / setter 코드 받아오기  
+    * ctrl + alt + n : 코드 합치기  
 
 
 * controller, service, repository  
