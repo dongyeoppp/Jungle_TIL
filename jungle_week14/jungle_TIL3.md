@@ -21,7 +21,7 @@
         - 페이징 필요 x -> fetch join 사용
 
 - spring data jpa
-  - `JpaRepository`라는 인테페이를 제공
+  - `JpaRepository`라는 인테페이스를 제공
     - 여기에 기본적인 CRUD 기능이 모두 제공된다.
   - `findByName`처럼 일반화하기 어려운 기능도 메서드 이름으로 정확한 JPQL 쿼리를 실행한다.
     - ` select m from member m where m.name = :name`
