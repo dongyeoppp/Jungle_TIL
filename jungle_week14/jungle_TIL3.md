@@ -4,10 +4,10 @@
 
 #### 알고리즘 문제 풀이
 
-- 5525번 [IOIOI]()    
-* 2170번 [선 긋기]()    
-* 2512번 [예산]()    
-* 15903번 [카드 합체 놀이]()      
+- 5525번 [IOIOI](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_5525.py)    
+* 2170번 [선 긋기](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_2170.py)    
+* 2512번 [예산](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_2512.py)    
+* 15903번 [카드 합체 놀이](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_15903.py)      
 
 #### springboot + jpa
 
