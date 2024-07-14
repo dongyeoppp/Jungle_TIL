@@ -283,7 +283,31 @@
 ###############################################################################
 
 
+# 회전 초밥 
 
+# import sys
+# from collections import deque 
+# n, d, k, c = map(int,sys.stdin.readline().split())
+# que = deque()
+
+# for i in range(n):
+#     que.append(int(sys.stdin.readline()))
+
+# result = 0
+# eat = [False]*(d+1)
+# eat[c] = True
+# for i in range(n):
+#     count =0
+#     for j in range(k):
+#         removed =que.popleft()
+#         if not eat[removed]:
+#             eat[removed] = True
+#             count+=1
+#         que.append(removed)
+#     result = max(count,result)
+# print(result)
+
+###############################################################################
 
 
 
