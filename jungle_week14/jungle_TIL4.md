@@ -1,10 +1,10 @@
 ## 나만무 기간 정리
 
 #### 알고리즘 풀이
-* 1449번 [수리공 항승]()  
-* 1431번 [시리얼 번호]()   
-* 11652번 [카드]()   
-* 30804번 [과일 탕후루]()   
+* 1449번 [수리공 항승](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_1449.py)  
+* 1431번 [시리얼 번호](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_1431.py)   
+* 11652번 [카드](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_11652.py)   
+* 30804번 [과일 탕후루](https://github.com/dongyeoppp/Jungle_TIL/blob/main/jungle_week14/bk_30804.py)    
 
 #### 나만무
 * 테스트 코드 적용   
