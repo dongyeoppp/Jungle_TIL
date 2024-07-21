@@ -309,16 +309,65 @@
 
 ###############################################################################
 
+# 테트로미노 
+
+# import sys
+# from collections import deque
+# n,m = map(int,sys.stdin.readline().split())
+# arr = []
+# for i in range(n):
+#     arr.append(list(map(int,sys.stdin.readline().split())))
+
+# def bfs(row,col):
+#     que = deque()
+#     visited=[[False]*m for i in range(n)]
+#     result = 0
+#     que.append((row,col,1))
+#     visited[row][col] = True
+#     dx = [1,-1,0,0]
+#     dy = [0,0,1,-1]
+#     result = 0
+#     while que:
+#         rerow, recol, depth = que.popleft()
+#         result+=arr[rerow][recol]
+#         if depth >=4:
+#             break
+#         save = 0
+#         check = 0
+#         for i in range(4):
+#             x = rerow + dx[i]
+#             y = recol + dy[i]
+#             if 0<= x < n and 0<= y < m and save < arr[x][y] and not visited[x][y]:
+#                 check = ((x,y))
+#                 save = arr[x][y]
+#         que.append((check[0],check[1],depth+1))
+#         visited[check[0]][check[1]] = True
+#     return result
 
 
+# def fuck(row,col):
+#     dx = [1,-1,0,0]
+#     dy = [0,0,1,-1]
+#     result = arr[row][col]
+#     answer = float('inf')
+#     for i in range(4):
+#         x = row + dx[i]
+#         y = col + dy[i]
+#         if 0<= x < n and 0 <= y < m:
+#             result += arr[x][y] 
+#             answer = min(answer,arr[x][y])
+#     return result-answer
 
 
+# answer= 0
+# for i in range(n):
+#     for j in range(m):
+#         answer = max(bfs(i,j),answer,fuck(i,j))
+# print(answer)
 
+###############################################################################
 
+# 숫자고르기   
 
+###############################################################################
 
-    
-
-
-    
-    
