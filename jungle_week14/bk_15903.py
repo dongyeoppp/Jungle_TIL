@@ -1,5 +1,5 @@
 # 카드 합체 놀이  
-
+# 우선순위 큐를 사용하여 풀이 
 import sys 
 import heapq
 

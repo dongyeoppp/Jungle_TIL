@@ -371,3 +371,18 @@
 
 ###############################################################################
 
+# 1로 만들기  
+
+###############################################################################
+
+# 스티커  
+
+# import sys
+
+# t = int(sys.stdin.readline())
+# for i in range(t):
+#     sticker = []
+#     n = int(sys.stdin.readline())
+#     for i in range(2):
+#         sticker.append(list(map(int,sys.stdin.readline().split())))
+    
