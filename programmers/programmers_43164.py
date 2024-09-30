@@ -1,3 +1,4 @@
+# 여행 경로 
 def solution(tickets):
     # 모든 공항을 담은 airport 리스트 생성
     airport = []

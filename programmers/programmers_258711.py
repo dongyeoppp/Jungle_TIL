@@ -1,3 +1,4 @@
+# 도넛과 막대 그래프
 from collections import deque
 def solution(edges):
     answer = 0

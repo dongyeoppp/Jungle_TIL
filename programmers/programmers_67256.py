@@ -1,3 +1,4 @@
+# 키패드 누르기 
 def solution(numbers, hand):
     result = ""
     keypad = [[1,2,3],[4,5,6],[7,8,9],["*",0,"#"]]
