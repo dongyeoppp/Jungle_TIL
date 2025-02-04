@@ -1,0 +1,1 @@
+{"name":"Local: bk_2504","url":"c:\\Users\\GODONGYEOP\\Desktop\\Jungle_TIL\\baekjoon\\bk_2504.py","tests":[{"id":1738685227718,"input":"(()[[]])([])","output":"28"},{"id":1738685262992,"input":"[][]((])","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\GODONGYEOP\\Desktop\\Jungle_TIL\\baekjoon\\bk_2504.py","group":"local","local":true}
