@@ -1,4 +1,5 @@
 # 토마토
+# bfs를 사용하여 풀이   
 
 import sys
 from collections import deque
