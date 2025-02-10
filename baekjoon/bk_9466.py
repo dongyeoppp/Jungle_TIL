@@ -25,6 +25,7 @@
 #         visited = [False] * (n+1)
 #         answer = 0
 #         dfs(j)
+#         # 팀을 이루는 경우 visited가 true인 번호끼리 팀을 이룸
 #         if answer == j:
 #             for k in range(1,n+1):
 #                 if visited[k]:
@@ -39,13 +40,14 @@ sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 
 t = int(input())
-
+# DFS탐색을 할 때 팀을 구성할 수 없는 번호도 visited에 체크하기 때문에 시간복잡도 개선 가능   
 def dfs(number):
     global result
     visited[number] = True
     cycle.append(number)
     number = student[number]
     if visited[number]:
+        # 사이클 존재, 팀을 구성할 수 있을 경우 
         if number in cycle:
             result += len(cycle[cycle.index(number):])
         return
