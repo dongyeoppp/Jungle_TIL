@@ -1,0 +1,1 @@
+{"name":"Local: bk_7562","url":"c:\\Users\\GODONGYEOP\\Desktop\\Jungle_TIL\\baekjoon\\bk_7562.py","tests":[{"id":1739428040433,"input":"3\n8\n0 0\n7 0\n100\n0 0\n30 50\n10\n1 1\n1 1","output":"5\n28\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\GODONGYEOP\\Desktop\\Jungle_TIL\\baekjoon\\bk_7562.py","group":"local","local":true}
